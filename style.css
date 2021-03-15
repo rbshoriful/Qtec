@@ -24,7 +24,7 @@ p{
     box-shadow: 5px 5px 50px lightgray;
     height: 250px;
     margin-bottom: 25px;
-    padding: 25px 30px ;
+    padding: 40px;
     border-radius: 5px;
 
 }
@@ -51,10 +51,16 @@ p{
     .box img{
         margin-top: 10px;
     }  
+    img{
+        width: 25%;
+    }
 }
 @media only screen and (min-width: 768px) and (max-width: 980px) {
     .header-bg{
         width: 60%;
+    }
+    img{
+        width: 25%;
     }
     .box img{
         margin-top: 5px;
