@@ -13,13 +13,16 @@ body{
     width: 40%;
     text-align: center;
 }
-.header-bg p{
+.header-bg {
     margin-top: 20px;
+}
+p{
     color: gray;
 }
+
 .box{
     box-shadow: 5px 5px 50px lightgray;
-    height: 260px;
+    height: 250px;
     margin-bottom: 25px;
     padding: 25px 30px ;
     
@@ -38,7 +41,7 @@ body{
 }
 .box img{
     float: right;  
-    margin-top: 30px; 
+    margin-top: 10px; 
 }
 .box4{
     margin-top: 175px;
@@ -49,7 +52,7 @@ body{
         margin-top: 10px;
     }  
 }
-@media only screen and (min-width: 767px) and (max-width: 980px) {
+@media only screen and (min-width: 768px) and (max-width: 980px) {
     .header-bg{
         width: 60%;
     }
