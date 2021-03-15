@@ -13,7 +13,7 @@ body{
     width: 40%;
     text-align: center;
 }
-.header-bg {
+.header-bg p{
     margin-top: 20px;
 }
 p{
@@ -89,5 +89,3 @@ p{
     .container{
         margin-bottom: 80px;
     }
-}
-
